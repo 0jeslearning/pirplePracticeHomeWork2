@@ -15,7 +15,7 @@ Building the API backend for a pizza delivery company.
     These menu items can be hard coded in to the system.
     But I will experiment with a JSON file for flexibilty
 
-4) A logged-in user should be able to fill a shopping car with menu items
+4) A logged-in user should be able to fill a shopping cart with menu items
 
 5) A logged-in user should be able to create an order.
     (Will be using stripe.com sandbox to experiment/testing)
