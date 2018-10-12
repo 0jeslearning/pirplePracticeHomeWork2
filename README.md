@@ -22,3 +22,16 @@ Building the API backend for a pizza delivery company.
 
 6) When an order is placed an email should be sent to the customer/user.
     (Will be using mailgun.com to experiment/test)
+
+
+Required Directories to work properly:
+Each directory is preceeded by PATH_TO_APP_LOCATION
+
+(Singular):
+~/.data/cart
+~/.data/menu
+~/.data/order
+
+(Plural)
+~/.data/tokens 
+~/.data/users
