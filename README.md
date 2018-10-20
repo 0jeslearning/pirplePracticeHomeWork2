@@ -35,7 +35,6 @@ Each directory is preceeded by PATH_TO_APP_LOCATION
 
 ~/.data/order
 
------------------
 (Plural)
 
 ~/.data/tokens 
