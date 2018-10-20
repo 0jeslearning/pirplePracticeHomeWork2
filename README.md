@@ -28,12 +28,17 @@ Required Directories to work properly:
 Each directory is preceeded by PATH_TO_APP_LOCATION
 
 (Singular):
+
 ~/.data/cart
+
 ~/.data/menu
+
 ~/.data/order
 
 (Plural)
+
 ~/.data/tokens 
+
 ~/.data/users
 
 Current process is:
