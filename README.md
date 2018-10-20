@@ -42,9 +42,9 @@ Each directory is preceeded by PATH_TO_APP_LOCATION
 ~/.data/users
 
 Current process is:
-1) Create user at localhost:3000/users using POST method with the following elements:
-    a)first name
-    b)last name
+1) Create user at localhost:3000/users using POST method with the following elements:\n
+    a)first name\n
+    b)last name\n
     //c)email address (Email address not set yet)
     d)street number
     e)street name
