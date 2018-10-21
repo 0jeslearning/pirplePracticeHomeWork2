@@ -77,15 +77,17 @@ Current process is:
   to place order
 
 5) Once cart is created enter cartId in to url query like so:
-    localhost:3000/order?cartId={cartId captured after placing items in to cart}
-    using the POST method your cartId becomes your orderId and 'total amount' will be charged
+    localhost:3000/order?cart={cart_id captured after placing items in to cart}
+    (url has to be /order?cart={cart_id}  *NOT ?cartId=*)
+    using the POST method your cart_id becomes your orderId and 'total amount' will be charged
 
 6) Carts not processed can be deleted with the following url as an example:
     localhost:3000/cart?cartId={cartId} using the DELETE method
+    (url has to be /cart?cartId *Notice the cartId* to be sure that user wants to delete cart)
 
 7) User can also retrieve cartId with the following url:
     localhost:3000/users?phone={phoneNumber} using the GET method
-    The cartId is in the 'sessions' section of the object retrieved
+    The cart_id is in the 'sessions' section of the object retrieved
 
 8) Any time a message that says the token is missing in the header or is invalid
     a new token must be generated using step number 2
