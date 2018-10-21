@@ -67,7 +67,7 @@ Current process is:
     for the 'token' key in the headers.
 
 3) Once logged in user can fetch menu at localhost:3000/menu?menu=pizza using GET method
-    (Currently only pizza menu exists, and is hard coded in to cartHandlers) 
+    (Currently only pizza menu exists)
 
 4) Create a cart by going to localhost:3000/cart using POST method acceptable elements are:
     a)itemNumber 
