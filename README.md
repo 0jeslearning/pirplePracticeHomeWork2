@@ -43,8 +43,8 @@ Each directory is preceeded by PATH_TO_APP_LOCATION
 
 Current process is:
 1) Create user at localhost:3000/users using POST method with the following elements:\n
-    a)first name\n
-    b)last name\n
+    a)first name
+    b)last name
     //c)email address (Email address not set yet)
     d)street number
     e)street name
@@ -89,4 +89,5 @@ Current process is:
 
 8) Any time a message that says the token is missing in the header or is invalid
     a new token must be generated using step number 2
+
 
